@@ -25,7 +25,7 @@ const CoffeeCard = ({coffee,coffees, setCoffees}) => {
             //   )
             }
 
-            fetch(`http://localhost:5000/coffee/${_id}`, {
+            fetch(`https://coffee-store-server-3snkw3kiz-sajjaduj-jaman-emons-projects.vercel.app/coffee/${_id}`, {
                 method: 'DELETE',
 
             })
